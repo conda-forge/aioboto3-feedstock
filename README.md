@@ -155,6 +155,3 @@ Feedstock Maintainers
 * [@peterbygrave](https://github.com/peterbygrave/)
 * [@skrsna](https://github.com/skrsna/)
 
-
-<!-- dummy commit to enable rerendering -->
-
