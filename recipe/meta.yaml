@@ -22,7 +22,7 @@ requirements:
     - setuptools-scm >=8.0.0
   run:
     - python >={{ python_min }}
-    - aiobotocore ==2.24.2
+    - aiobotocore ==2.25.0
     - aiofiles >=23.2.1
     - boto3 >=1.21.21
     - cryptography >=44.0.1
