@@ -1,5 +1,5 @@
 {% set name = "aioboto3" %}
-{% set version = "15.4.0" %}
+{% set version = "15.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e8d889ac1c4f5df57776e1895a984bb9ff628958260038c7f8fa8f6e0a3fa9c1
+  sha256: ea8d8787d315594842fbfcf2c4dce3bac2ad61be275bc8584b2ce9a3402a6979
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - setuptools-scm >=8.0.0
   run:
     - python >={{ python_min }}
-    - aiobotocore ==2.25.0
+    - aiobotocore ==2.25.1
     - aiofiles >=23.2.1
     - boto3 >=1.21.21
     - cryptography >=44.0.1
